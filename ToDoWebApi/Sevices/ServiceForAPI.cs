@@ -10,8 +10,8 @@ namespace ToDoWebApi.Sevices
     public class ServiceForAPI
     {
         private readonly HttpClient _httpClient;
-        private const string APIkey = "a9f66e7d48cf4ab74defe311b715ae0b";
-        private const string BaseUrl = "https://api.openweathermap.org/data/2.5/weather";
+        private const string APIkey = "YourAPIkey";
+        private const string BaseUrl = "YourBaseUrlForRequest";
 
         public ServiceForAPI(HttpClient httpClient)
         {
